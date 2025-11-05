@@ -2,6 +2,8 @@
 
 Web link https://blaizer259-boop.github.io/CUTO.TO/
 
+login page http://127.0.0.1:5500/my-react-app/Jore.html#
+
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:
