@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CUT.TO MOVIES - Watch Movies & Series</title>
+    <link rel="stylesheet" href="kido.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Boxicons for Icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+
+    <!-- ======== HEADER ======== -->
+    <header class="header">
+        <nav class="nav container">
+            <div class="nav__left">
+                <a href="#" class="nav__logo">
+                    <!-- SVG Logo for CUT.TO -->
+                    <svg width="120" height="35" viewBox="0 0 120 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <defs>
+                            <linearGradient id="logoGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                                <stop offset="0%" stop-color="#f97316" />
+                                <stop offset="100%" stop-color="#dc2626" />
+                            </linearGradient>
+                        </defs>
+                        <rect x="0" y="0" width="35" height="35" rx="8" fill="url(#logoGradient)"/>
+                        <text x="42" y="22" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="white">CUT.TO</text>
+                        <text x="42" y="32" font-family="Arial, sans-serif" font-size="8" fill="#a0a0a0">MOVIES</text>
+                    </svg>
+                </a>
+                <ul class="nav__list">
+                    <li><a href="#" class="nav__link active">Home</a></li>
+                    <li><a href="#" class="nav__link">New & Popular</a></li>
+                    <li><a href="#" class="nav__link">My List</a></li>
+                </ul>
+            </div>
+            <div class="nav__right">
+                <!-- Search Bar -->
+                <div class="search-container">
+                    <div class="search-box">
+                        <input type="text" id="searchInput" placeholder="Search movies...">
+                        <button id="searchBtn" class="search-btn">
+                            <i class='bx bx-search'></i>
+                        </button>
+                    </div>
+                    <div id="searchResults" class="search-results"></div>
+                </div>
+                <a href="#"><i class='bx bx-bell'></i></a>
+                <a href="#"><i class='bx bx-user-circle'></i></a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- ======== HERO SECTION ======== -->
+        <section class="hero">
+            <div class="hero__content container">
+                <h1 class="hero__title">The Midnight Rider</h1>
+                <p class="hero__description">
+                    A lone detective uncovers a city-wide conspiracy that goes all the way to the top. This gritty neo-noir thriller will keep you on the edge of your seat.
+                </p>
+                <div class="hero__buttons">
+                    <a href="#" class="btn btn--primary"><i class='bx bx-play'></i> Play Now</a>
+                    <a href="#" class="btn btn--secondary"><i class='bx bx-info-circle'></i> More Info</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- ======== CONTENT GRIDS ======== -->
+        <section class="content-grid container">
+            
+            <!-- Category: Featured Films -->
+            <div class="category">
+                <h2 class="category__title">Featured Films</h2>
+                <div class="movie-carousel">
+                    <a href="#" class="movie-item"><img src="MoviesTo4/john.jpg" alt="Movie 1"></a>
+                    <a href="#" class="movie-item"><img src="assets/images/thumbnail-2.jpeg" alt="Movie 2"></a>
+                    <a href="#" class="movie-item"><img src="assets/images/thumbnail-3.jpeg" alt="Movie 3"></a>
+                    <a href="#" class="movie-item"><img src="assets/images/thumbnail-4.jpeg" alt="Movie 4"></a>
+                    <a href="#" class="movie-item"><img src="assets/images/thumbnail-5.jpeg" alt="Movie 5"></a>
+                </div>
+            </div>
+
+            <!-- Category: New Releases -->
+            <div class="category">
+                <h2 class="category__title">New Releases</h2>
+                <div class="movie-carousel">
+                    <a href="#" class="movie-item"><img src="assets/images/thumbnail-6.jpeg" alt="Movie 6"></a>
+                    <a href="#" class="movie-item"><img src="assets/images/kelly.jpeg" alt="Movie 7"></a>
+                    <a href="#" class="movie-item"><img src="assets/images/thumbnail-3.jpeg" alt="Movie 3"></a>
+                    <a href="#" class="movie-item"><img src="MoviesTo4/john.jpg" alt="Movie 1"></a>
+                    <a href="#" class="movie-item"><img src="assets/images/thumbnail-4.jpeg" alt="Movie 4"></a>
+                </div>
+            </div>
+
+            <!-- Category: Uncut Classics -->
+            <div class="category">
+                <h2 class="category__title">Uncut Classics</h2>
+                <div class="movie-carousel">
+                    <a href="#" class="movie-item"><img src="assets/images/thumbnail-5.jpeg" alt="Movie 5"></a>
+                    <a href="#" class="movie-item"><img src="assets/images/thumbnail-2.jpeg" alt="Movie 2"></a>
+                    <a href="#" class="movie-item"><img src="assets/images/thumbnail-4.jpeg" alt="Movie 4"></a>
+                    <a href="#" class="movie-item"><img src="assets/images/thumbnail-6.jpeg" alt="Movie 6"></a>
+                    <a href="#" class="movie-item"><img src="assets/images/thumbnail-7.jpeg" alt="Movie 7"></a>
+                </div>
+            </div>
+
+        </section>
+    </main>
+
+    <!-- ======== FOOTER ======== -->
+    <footer class="footer">
+        <div class="footer__container container">
+            <div class="footer__top">
+                <a href="#" class="footer__logo">
+                    <!-- Footer Logo -->
+                    <svg width="140" height="40" viewBox="0 0 140 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <defs>
+                            <linearGradient id="footerLogoGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                                <stop offset="0%" stop-color="#f97316" />
+                                <stop offset="100%" stop-color="#dc2626" />
+                            </linearGradient>
+                        </defs>
+                        <rect x="0" y="0" width="40" height="40" rx="10" fill="url(#footerLogoGradient)"/>
+                        <text x="50" y="25" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="white">CUT.TO</text>
+                        <text x="50" y="38" font-family="Arial, sans-serif" font-size="10" fill="#a0a0a0">PREMIUM MOVIES</text>
+                    </svg>
+                </a>
+            </div>
+            <div class="footer__columns">
+                <div class="footer__col">
+                    <h3>Company</h3>
+                    <ul>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Press</a></li>
+                    </ul>
+                </div>
+                <div class="footer__col">
+                    <h3>Support</h3>
+                    <ul>
+                        <li><a href="#">Help Center</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Terms</a></li>
+                    </ul>
+                </div>
+                <div class="footer__col">
+                    <h3>Browse</h3>
+                    <ul>
+                        <li><a href="#">Director's Cuts</a></li>
+                        <li><a href="#">Extended Editions</a></li>
+                        <li><a href="#">Classics</a></li>
+                    </ul>
+                </div>
+                <div class="footer__col">
+                    <h3>Connect</h3>
+                    <ul>
+                        <li><a href="#">Google</a></li>
+                        <li><a href="#">Instagram</a></li>
+                        <li><a href="#">What'sApp</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <p>&copy; 2024 CUT.TO. All rights reserved. Watch the director's vision.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="Java.js"></script>
+</body>
+</html>
