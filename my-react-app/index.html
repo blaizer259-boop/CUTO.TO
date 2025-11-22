@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CUT.TO MOVIES - Watch Movies & Series</title>
+    <link rel="stylesheet" href="kido.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav container">
+            <div class="nav-left">
+                <a href="#" class="logo">
+                    <div class="logo-icon">CUT.TO</div>
+                    <div class="logo-text">MOVIES</div>
+                </a>
+                <ul class="nav-menu">
+                    <li><a href="#" class="nav-link active">Home</a></li>
+                    <li><a href="#" class="nav-link">New & Popular</a></li>
+                    <li><a href="#" class="nav-link">My List</a></li>
+                </ul>
+            </div>
+            
+            <div class="nav-right">
+                <div class="search-wrapper">
+                    <div class="search-box">
+                        <input type="text" id="searchInput" placeholder="Search movies...">
+                        <button id="searchBtn" class="search-btn">
+                            <i class='bx bx-search'></i>
+                        </button>
+                    </div>
+                    <div id="searchResults" class="search-results"></div>
+                </div>
+                <a href="#" class="icon-link"><i class='bx bx-bell'></i></a>
+                <a href="#" class="icon-link"><i class='bx bx-user-circle'></i></a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="hero-content container">
+                <h1 class="hero-title">John Wick: Chapter 4</h1>
+                <p class="hero-description">
+                    John Wick uncovers a path to defeating The High Table. But before he can earn his freedom, Wick must face off against a new enemy with powerful alliances across the globe.
+                </p>
+                <div class="hero-buttons">
+                    <button class="btn btn-primary"><i class='bx bx-play'></i> Play Now</button>
+                    <button class="btn btn-secondary"><i class='bx bx-info-circle'></i> More Info</button>
+                    <button class="btn btn-secondary randomize-btn"><i class='bx bx-shuffle'></i> Show Random Movies</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Movies Grid -->
+        <section class="content-grid container">
+            
+            <!-- Featured Films -->
+            <div class="category">
+                <h2 class="category-title">Featured Films</h2>
+                <div class="movie-carousel" id="featuredMovies">
+                    <!-- Movies will be loaded by JavaScript -->
+                </div>
+            </div>
+
+            <!-- New Releases -->
+            <div class="category">
+                <h2 class="category-title">New Releases</h2>
+                <div class="movie-carousel" id="newReleases">
+                    <!-- Movies will be loaded by JavaScript -->
+                </div>
+            </div>
+
+            <!-- Uncut Classics -->
+            <div class="category">
+                <h2 class="category-title">Uncut Classics</h2>
+                <div class="movie-carousel" id="classicMovies">
+                    <!-- Movies will be loaded by JavaScript -->
+                </div>
+            </div>
+
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-top">
+                <a href="#" class="footer-logo">
+                    <div class="logo-icon">CUT.TO</div>
+                    <div class="logo-text">PREMIUM MOVIES</div>
+                </a>
+            </div>
+            <div class="footer-columns">
+                <div class="footer-col">
+                    <h3>Company</h3>
+                    <ul>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Press</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Support</h3>
+                    <ul>
+                        <li><a href="#">Help Center</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Terms</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Browse</h3>
+                    <ul>
+                        <li><a href="#">Director's Cuts</a></li>
+                        <li><a href="#">Extended Editions</a></li>
+                        <li><a href="#">Classics</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Connect</h3>
+                    <ul>
+                        <li><a href="#">Google</a></li>
+                        <li><a href="#">Instagram</a></li>
+                        <li><a href="#">What'sApp</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy;CUT.TO. All rights reserved. Watch the director's vision.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="Java.js"></script>
+</body>
+</html>
